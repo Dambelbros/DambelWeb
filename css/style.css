@@ -1,0 +1,160 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#encabezado
+{
+    background-color: #1F0F53;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+#cuerpo
+{
+    background-color: #ffffff; 
+    width: 100%;
+    height: 400px;
+}
+#logo, #logo > img
+{
+    height: 200px;
+    width: 285px;
+}
+
+#menu
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    display: center;
+    background-color: hsl(0, 0%, 100%);
+    color: #FFDB99;
+    
+}
+#encabezadoInterior
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+ul, ol {
+    
+    list-style:none;
+}
+
+#menu > li {
+    float:left;
+    width: 120px;
+    text-align: center;
+    color: #FFDB99; 
+    
+    
+}
+
+#menu li a {
+    color: #FFDB99;
+    text-decoration:none;
+    size: 70px;
+    padding:10px;
+    display:block;
+    border-radius: initial;
+    
+
+}
+
+#menu li a:hover {
+    background-color:#FF5DB2;
+    color: #FFDB99;
+    transition: 0.7s;
+}
+
+#menu li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    width: 150px;
+    border: 3px solid #FF5DB2;
+}
+
+#menu li:hover > ul {
+    display:block;
+}
+
+#menu li ul li , #menu li ul li a{
+    position:relative;
+    background-color: #1F0F53;
+    color: #FFDB99;
+    
+    
+    
+}
+
+#menu li ul li ul {
+    right:-140px;
+    top:0px;
+}
+#menu .active ,#menu .active a
+{
+    background-color: #FF5DB2;
+    color: #FFDB99;
+}
+#menu .active ,#menu .active a:hover
+{
+    background-color: #FF5DB2;
+    color: #FFDB99;
+}
+#pie
+{
+    background-color: #1F0F53;
+    width: 100%;
+    height: 180px;
+}
+
+.fotosPie
+{
+    height: 60px;
+    width: 60px;
+    margin: -30px;
+    margin-top: 20px;
+    float:left;
+    padding-left: 20%;
+}
+.fotosPies
+{
+    height: 60px;
+    width: 60px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.fotosPies:hover
+{
+    opacity: 1;
+
+}
+.textoPie
+{
+    color: black;
+    text-align: center;
+    margin: auto;
+    color: #FFDB99;
+    font-family: 'Anton', sans-serif;
+
+}
+.floatClear
+{
+    clear:both;
+}
+#pieFinal, #pieFinal > p
+{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #231F20;
+}
+
