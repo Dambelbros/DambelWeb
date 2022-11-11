@@ -33,6 +33,8 @@ body
     height: 100%;
     align-items: center;
     justify-content: center;
+    overflow: auto;
+    
 }
 #logo, #logo > img
 {
@@ -80,8 +82,6 @@ ul, ol {
     padding:10px;
     display:block;
     border-radius: initial;
-    
-
 }
 
 #menu li a:hover {
@@ -106,9 +106,6 @@ ul, ol {
     position:relative;
     background-color: #1F0F53;
     color: #FFDB99;
-    
-    
-    
 }
 
 #menu li ul li ul {
@@ -133,6 +130,8 @@ ul, ol {
     width: 100%;
     height: auto;
     align-items: center;
+    flex-shrink: 0;
+    clear: both;
 }
 
 #pieFotos
@@ -140,9 +139,11 @@ ul, ol {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: 100%;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .fotosPie
@@ -189,5 +190,25 @@ ul, ol {
     width: 100%;
     height: 30px;
     background-color: #231F20;
+    flex-shrink: 0;
 }
 
+@media screen and (max-width: 404px) 
+{
+    #menu
+    {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 374px) 
+{
+        #logo
+        {
+            display: none;
+        }
+        #menu
+        {
+            margin: 0;
+        }
+}

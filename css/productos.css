@@ -1,4 +1,4 @@
-h2
+.cabeceraProducto
 {
     color: #FFDB99;
     background-color:#FF5DB2;
@@ -23,11 +23,11 @@ h2
 
 .contenido
 {
+    display: flex;
+    flex-direction: row;
     margin: 20px;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #451F55;
     height: auto;
     width: auto;
-    color: white;
 }
