@@ -1,0 +1,151 @@
+/*Video-Portada style*/
+#videoBG {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+body {
+  background: url('/images/background/poster.png');
+  background-size: cover;
+}
+.portada {
+  max-height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+/*Caracteristicas style*/
+#features-section
+{
+  min-height: 450px;
+  cursor: default;
+}
+
+#features-title 
+{
+  color: #9e3b3c;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
+}
+#features-title h4
+{
+  color: #cbcbcb;
+  padding-left: 2rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+}
+
+@media (min-width: 1200px) 
+{
+  #features-section {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+/*Fotos-Caracteristicas*/
+#fotosDiv 
+{
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  flex-wrap: wrap;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.foto-features 
+{
+  flex-basis: 25%;
+  padding-right: 35px;
+
+}
+
+.foto-features img {
+  width: 300px;
+  height: 180px;
+  border-radius: 2px;
+}
+
+/*Software Letras*/
+.software-title 
+{
+  color: #9e3b3c;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+/*Software Foto*/
+.hero-section {
+  background-image: url(../images/background/foto-seccion.svg);
+  padding: 100px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Software Letra*/
+.hero-section > .top-heading {
+  padding: 1px 20px;
+  background-color: #11122b;
+  color: #cbcbcb;
+  width: 290px;
+  border-radius: 2px;
+  cursor: default;
+}
+
+.hero-section > .bottom-heading a {
+  text-decoration: none;
+  color: #11122b;
+  margin-top: 15px;
+  width: 107px;
+  border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+  background-color: #9e3b3c;
+  color: #11122b;
+  padding: 1px 20px;
+  margin-top: 15px;
+  width: 107px;
+  border-radius: 2px;
+}
+
+/*Acerca del grupo-Columna*/
+#grupo-columna 
+{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+#grupo-title{
+  padding-right: 3rem;
+}
+#grupo-title h1
+{
+  color: #9e3b3c;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+#grupo-title h4
+{
+  color: #cbcbcb;
+  padding-left: 2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+}
+
