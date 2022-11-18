@@ -1,13 +1,10 @@
 /* Body styles */
-*
-{
-    background-color: #ffffff;
-}
 body {
     margin: 0px;
     width:100%;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
 }
 #cuerpo {
   display: flex;
