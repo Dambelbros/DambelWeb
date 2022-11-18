@@ -57,6 +57,7 @@ ul, ol {
     list-style:none;
     display: flex;
     padding: 0%;
+    flex-wrap: wrap;
 }
 #menu > li {
     width: 110px;
