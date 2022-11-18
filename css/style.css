@@ -1,4 +1,8 @@
 /* Body styles */
+*
+{
+    background-color: #111111;
+}
 body {
     margin: 0px;
     width:100%;
