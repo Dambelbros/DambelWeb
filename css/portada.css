@@ -70,8 +70,8 @@
 /*Software Foto*/
 .hero-section {
   background-image: url(../images/background/foto-seccion.svg);
-  padding: 100px;
-  height: 250px;
+  padding: 100px 20px 100px 20px;
+  height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,13 +108,11 @@
 #grupo-columna 
 {
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-left: 6rem;
+  flex-wrap:wrap;
   justify-content: center;
-  align-items: center;
+  align-content: space-between;
 }
+
 #grupo-title{
   padding-right: 3rem;
 }
@@ -136,3 +134,8 @@
   font-size: 1rem;
 }
 
+@media (min-width: 600px) {
+  .hero-section {
+    padding: 100px !important;
+  }
+}
