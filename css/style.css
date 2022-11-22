@@ -135,7 +135,6 @@ ul, ol {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 150px;
 }
 
 .footer > .social-media-icons-wrapper 
